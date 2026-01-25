@@ -18,6 +18,11 @@ This course covers strong artificial intelligence methods resulting in systems t
 - **Advanced Topics:** Reinforcement Learning, Evolutionary Computation, Swarm Intelligence
 - **Ethics:** AI Safety and Real-World Considerations
 
+## Group Projects
+We encourage open collaboration! This course uses a Pull Request workflow for group projects.
+- **[Submission Guide](Group_Projects/SUBMISSION_GUIDE.md):** Instructions on how to submit your work.
+- **[Project Directory](Group_Projects/):** Explore projects built by your classmates.
+
 ## Full Syllabus
 For detailed course policies, grading breakdown, and the complete weekly schedule, please refer to the [Course Syllabus](CS335_Artificial_Intelligence_Spring_2026.md).
 
