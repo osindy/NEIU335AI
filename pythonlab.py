@@ -3,6 +3,11 @@ CS 335 Python Lab 1
 This script demonstrates basic Python concepts including variables, data types,
 lists, loops, dictionaries, conditionals, and functions.
 """
+"""
+Instruction:
+1. Open Google Colab: Go to Google Colab and sign in with your Google account.
+2. Create a New Notebook: Name it CS335_PythonLab1_YourName.
+"""
 
 from typing import List, Dict, Union
 
@@ -10,8 +15,8 @@ from typing import List, Dict, Union
 def run_variables_demo():
     """
     Topic 1: Variables and Data Types
-    Task: Modify the variables to reflect your name, age, and enrollment status.
-    Then print a sentence using all three values.
+    Task: Task: Modify the variables to reflect your name, age, and 
+    enrollment status. Then print a sentence using all three values
     """
     print("\n--- 1. Variables and Data Types ---")
     name: str = "Omeed Adham Sindy"
