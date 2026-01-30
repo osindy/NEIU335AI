@@ -27,9 +27,9 @@ def run_variables_demo():
     print(f"Age in 5 years: {age + 5}")
     print(f"Is enrolled in CS 335: {ai_course}")
     
-    # Task completion: Sentence using all three values
-    enrollment_status = "is enrolled" if ai_course else "is not enrolled"
-    print(f"Summary: {name}, aged {age}, {enrollment_status} in the CS 335 AI course.")
+    # TODO: Create a sentence using all three values and print it
+    # Hint: Use an f-string, e.g., f"{name} is {age}..."
+
 
 
 def run_list_demo():
@@ -42,13 +42,15 @@ def run_list_demo():
     print("\n--- 2. Lists and Loops ---")
     topics: List[str] = ["Logic", "Search", "NLP", "ML", "Bayesian Inference"]
     
-    # Task completion 1: Add two additional AI topics
-    topics.extend(["Robotics", "Computer Vision"])
+    # TODO: Add two additional AI topics
+    # Hint: Use the .append() or .extend() method
+    
 
-    # Task completion 2: Modify loop to include numbering
+    # TODO: Modify loop to include numbering
+    # Hint: Use the enumerate() function: for i, topic in enumerate(topics, start=1):
     print("We will study the following topics:")
-    for i, topic in enumerate(topics, start=1):
-        print(f"{i}. {topic}")
+    for topic in topics:
+        print(topic)
 
 
 def run_dictionaries_demo():
@@ -72,9 +74,9 @@ def run_dictionaries_demo():
         grade = ""
         
         # Task completion: Add "A+" tier and logic
-        if score >= 95:
-            grade = "A+"
-        elif score >= 90:
+        # TODO: Add logic for "A+" if score is 95 or higher
+        # Hint: Check for >= 95 first, before checking for >= 90
+        if score >= 90:
             grade = "A"
         elif score >= 80:
             grade = "B"
@@ -94,7 +96,9 @@ def square_number(num: Union[int, float]) -> Union[int, float]:
     Topic 4 Task: Write a function square_number(num) that takes a number
     and returns its square.
     """
-    return num * num
+    # TODO: Implement this function
+    # Hint: Return num * num or num ** 2
+    return 0
 
 
 def run_functions_demo():
@@ -107,12 +111,9 @@ def run_functions_demo():
     # Demonstrating the existing function
     print(greet_student("Omeed"))
 
-    # Task completion: Test square_number with inputs
-    test_inputs = [5, 12, -3, 2.5]
-    print(f"Testing square_number function:")
-    for num in test_inputs:
-        result = square_number(num)
-        print(f"The square of {num} is {result}")
+    # TODO: Test square_number with at least two inputs
+    # Hint: Call square_number(5) and print the result
+    pass
 
 
 def main():
