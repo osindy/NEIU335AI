@@ -16,18 +16,18 @@ Deliverables:
 
 """
 
-# --- Grading Rubric (Total: 60 pts) ---
+# --- Grading Rubric (Total: 50 pts) ---
 #
 # | Criteria                                                          | Points |
 # |:------------------------------------------------------------------|:-------|
-# | Lexicon completeness (≥15 positive & ≥15 negative words)           |   20   |
+# | Lexicon completeness (≥15 positive & ≥15 negative words)           |   15   |
 # | Display of positive & negative lexicons                            |    5   |
-# | Sentiment score computation & correct labeling                    |   15   |
+# | Sentiment score computation & correct labeling                    |   10   |
 # | Interactive testing functionality (I/O loop, 'exit' handling)     |   10   |
 # | Code readability and comments                                     |    5   |
 # | Reflection quality (insightful strengths & limitations)          |    5   |
 #
-# **Total Points:** 60    
+# **Total Points:** 50    
 
 import re
 
@@ -61,19 +61,16 @@ while True:
         break
 
     tokens = clean_text(text)
-    pos_count = sum(1 for t in tokens if t in positive_words)
-    neg_count = sum(1 for t in tokens if t in negative_words)
-    total = len(tokens)
+    # TODO: 1. Count the number of positive words and negative words in the token list
+    # pos_count = ...
+    # neg_count = ...
+    
+    # 3. Compute simple sentiment score (hint: positive - negative count)
+    # score = ...
 
-# 3. Compute simple sentiment score (hint: positive - negative count)
-
-    # Determine sentiment label
-    if score > 0:
-        sentiment = 'Positive'
-    elif score < 0:
-        sentiment = 'Negative'
-    else:
-        sentiment = 'Neutral'
+    # TODO: 2. Determine the sentiment label (Positive, Negative, or Neutral) based on the score
+    # if ...
+    #     sentiment = ...
 
 # 4. print the output results
     print(f"Tokens: {tokens}")
